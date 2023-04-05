@@ -1,0 +1,58 @@
+.jumbotron{
+    background: #EDD5AB;  
+    padding: 20px 20px !important;
+    border-radius: 10px;
+}
+
+.col-md-5{
+    width: 20% !important;
+}
+
+.mail-input{
+    border-bottom: 1px solid #8C8C8C !important;
+    outline: none !important;
+}
+
+.rightH1{
+    font-size: 46px;
+    color: #191919;
+}
+
+
+.p-2{
+    padding: 10px !important;
+    border-radius: 20px;
+}
+
+.submit{
+    background: #0063AE;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    width: 90%;
+    height: 48px; 
+}
+
+@media only screen and (max-width: 600px) {
+    .rightH1{
+        font-size: 22px;
+    }
+
+    img{
+        width: 53%;
+        position: absolute;
+        right: -20px;
+        top: -11px;
+    }
+
+    .submit{
+        width: 100%;
+        height: 48px;
+        background: #0063AE;
+        border-radius: 8px;
+    }
+
+    .jumbotron{
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+.sucessContent{
+    background: #E6E6E6;
+    border-radius: 20px;
+}
+
+.modalH2{
+    font-size: 20px;
+    line-height: 40px;
+    color: #191919;
+}
+
+
+.modalP{
+    font-size: 15px;
+    line-height: 140%;
+    color: #757575;
+}
+
+.modalButton{
+    height: 45px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.bg-primary{
+    background: #0063AE !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .modalP{
+        font-size: 20px;
+        font-weight: 500;
+        color: #757575;
+        line-height: 135%;
+    }
+
+    .modalH2{
+        font-weight: 700 !important;
+        font-size: 30px;
+        line-height: 29px;
+        text-align: center;
+        color: #191919;
+    }
+
+    .modalButton{
+        width: 100% !important;
+    }
+}
