@@ -11,7 +11,7 @@ const LeftLayout = () => {
 
             <p className='l-layoutP font-weight-bold'>
                 We're offering dollar cards and international payment options to 
-                make managing your money even simpler. Stay tuned for more updates on our launch date and other exciting features!
+                make managingg your money even simpler. Stay tuned for more updates on our launch date and other exciting features!
             </p>
         </div>
   )
