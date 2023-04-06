@@ -22,7 +22,7 @@ const RightLayout = () => {
             <form>
                 <div className='form-group mt-lg-1'>
                     <input className='mail-input w-100 border-0' type="email" placeholder="Email address" />
-                    <small className='form-text text-muted'></small>
+                    <small className='form-text text-muted'>{}</small>
                 </div>
 
                 <div className='d-flex align-items-center'>

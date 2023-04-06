@@ -8,7 +8,7 @@ const Modal = () => {
             <div className='modal-content sucessContent'>
             <div className='modal-body mt-4'>
                 <h3 className='text-center modalH2'>Awesome! You’re on the waitlist.</h3>
-                <p className='text-center pt-n1 modalP text-muted'>We can’t wait to bring you a convenient 
+                <p className='text-center pt-3 modalP text-muted'>We can’t wait to bring you a convenient 
                 and secure way to send and receive money across borders </p>
             </div>
             <div className='modal-footer'>
