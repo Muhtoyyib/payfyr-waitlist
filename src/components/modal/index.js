@@ -2,7 +2,7 @@ import './modal.styles.css';
 
 const Modal = () => {
   return (
-    <div className='row d-flex align-items-center'>
+    <div className='row d-flex align-items-lg-center'>
         <div className='modal fade' id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalTitle" aria-hidden="true">
         <div className='modal-dialog modal-dialog-centered' role="document">
             <div className='modal-content sucessContent'>

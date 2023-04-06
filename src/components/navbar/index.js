@@ -12,7 +12,7 @@ const Navbar = () => {
             </button>
 
         
-            <div className='collapse navbar-collapse d-lg-flex justify-content-lg-end mr-2 mx-auto mb-3'>
+            <div className='collapse navbar-collapse d-lg-flex justify-content-lg-end justify-content-md-end mr-2 mx-auto mb-3'>
                 <ul className='navbar-nav'>
                     <a className='btn btn-light' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
                 </ul>
