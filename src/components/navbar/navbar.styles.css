@@ -8,8 +8,14 @@
 
 }
 
-nav-button{
-    font-size: 20px;
+.nav-button{
+    font-size: 15px;
+    line-height: 24px;
+    color: #191919;
+}
+
+nav-button-mobile{
+    font-size: 15px;
     line-height: 24px;
     background: #E6E6E6;
     color: #191919;

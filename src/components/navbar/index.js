@@ -14,7 +14,7 @@ const Navbar = () => {
         
             <div className='collapse navbar-collapse d-lg-flex justify-content-lg-end justify-content-md-end mr-2 mx-auto mb-3'>
                 <ul className='navbar-nav'>
-                    <a className='btn btn-light' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
+                    <a className='btn btn-light nav-button' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
                 </ul>
             </div>
         </nav>
@@ -29,7 +29,7 @@ const Navbar = () => {
 
                     <div class="modal-body mt-n4 mb-5 w-75 mx-auto">
                         <ul className='navbar-nav'>
-                        <a className='btn btn-primary nav-button' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
+                        <a className='btn btn-primary nav-button-mobile' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
                         </ul>
                     </div>
                 </div>
