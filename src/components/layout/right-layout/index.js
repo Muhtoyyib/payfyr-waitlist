@@ -18,7 +18,7 @@ const RightLayout = () => {
               </div>
           </div>
 
-          <div className='px-2 mt-lg-5'>
+          <div className='px-2 mt-lg-4'>
             <form>
                 <div className='form-group mt-lg-1'>
                     <input className='mail-input w-100 border-0' type="email" placeholder="Email address" />
@@ -26,7 +26,7 @@ const RightLayout = () => {
                 </div>
 
                 <div className='d-flex align-items-center'>
-                  <button type="button" class=" text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
+                  <button type="button" class=" text-light text-center mx-auto mt-2 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
                 </div>
             </form>
           </div>
