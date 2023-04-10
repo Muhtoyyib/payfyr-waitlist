@@ -20,13 +20,13 @@ const RightLayout = () => {
 
           <div className='px-2 mt-lg-4'>
             <form>
-                <div className='form-group mt-lg-1'>
+                <div className=' mt-lg-1'>
                     <input className='mail-input w-100 border-0' type="email" placeholder="Email address" />
-                    <small className='form-text text-muted'>{}</small>
+                    <small className='form-text text-muted'></small>
                 </div>
 
                 <div className='d-flex align-items-center'>
-                  <button type="button" class=" text-light text-center mx-auto mt-2 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
+                  <button type="button" class=" text-light text-center mx-auto mt-4 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
                 </div>
             </form>
           </div>

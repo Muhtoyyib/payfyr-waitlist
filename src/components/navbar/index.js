@@ -8,7 +8,7 @@ const Navbar = () => {
             <h2 className='navbar-brand d-flex logo' href="mailto:akandeolalekantoheeb94@gmail.com">Payfyr</h2>
         
             <button className='navbar-toggler' type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span className='navbar-toggler-icon d-flex justify-content-end' data-toggle="modal" data-target="#collapsibleNavbar"></span>   
+                <span className='navbar-toggler-icon' data-toggle="modal" data-target="#collapsibleNavbar"></span>   
             </button>
 
         
