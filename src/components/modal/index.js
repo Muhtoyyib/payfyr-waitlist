@@ -15,8 +15,7 @@ const Modal = () => {
             <div className='modal-footer'>
                 <button type="button" className='btn btn-secondary
                 mx-auto d-flex align-items-center 
-                justify-content-center bg-primary mt-n4 mb-3 w-75 modalButton
-                ' data-dismiss="modal">Done</button>
+                justify-content-center mt-n4 mb-3 w-75 modalButton' data-dismiss="modal">Done</button>
             </div>
             </div>
         </div>

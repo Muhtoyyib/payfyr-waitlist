@@ -23,11 +23,9 @@
     font-weight: 500;
     font-size: 17px;
     padding: 23px 20px;
+    background-color: #0063AE !important;
 }
 
-.bg-primary{
-    background: #0063AE !important;
-}
 
 @media only screen and (max-width: 900px) {
     .modalP{
