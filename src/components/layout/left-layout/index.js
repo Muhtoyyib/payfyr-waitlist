@@ -9,7 +9,7 @@ const LeftLayout = () => {
             </h3> 
             <br/>
 
-            <p className='l-layoutP font-weight-bold'>
+            <p className='l-layoutP font-weight-bold mt-sm-n2'>
                 We're offering dollar cards and international payment options to 
                 make managingg your money even simpler. Stay tuned for more updates on our launch date and other exciting features!
             </p>
