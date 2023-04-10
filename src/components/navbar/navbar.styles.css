@@ -14,11 +14,13 @@
     color: #191919;
 }
 
-nav-button-mobile{
+.nav-button-mobile{
     font-size: 15px;
     line-height: 24px;
-    background: #E6E6E6;
+    background-color: #0063AE;
     color: #191919;
+    margin-top: 10px !important;
+    padding: 10px 0px;
     
 }
 

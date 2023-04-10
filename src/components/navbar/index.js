@@ -27,9 +27,9 @@ const Navbar = () => {
                            <span aria-hidden="true">&times;</span>
                         </button>
 
-                    <div class="modal-body mt-n4 mb-5 w-75 mx-auto">
+                    <div class="modal-body mt-n5 py-4 w-75 mx-auto">
                         <ul className='navbar-nav'>
-                        <a className='btn btn-primary nav-button-mobile' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
+                        <a className='btn text-light nav-button-mobile' href="mailto:akandeolalekantoheeb94@gmail.com" role="button">Contact US</a>
                         </ul>
                     </div>
                 </div>
