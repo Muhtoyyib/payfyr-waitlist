@@ -26,7 +26,7 @@ const RightLayout = () => {
                 </div>
 
                 <div className='d-flex align-items-center'>
-                  <button type="button" class="btn btn-primary text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
+                  <button type="button" class="text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
                 </div>
             </form>
           </div>

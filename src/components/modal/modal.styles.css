@@ -4,14 +4,14 @@
 }
 
 .modalH2{
-    font-size: 20px;
+    font-size: 23px !important;
     line-height: 40px;
     color: #191919;
 }
 
 
 .modalP{
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 140%;
     color: #757575;
 }
@@ -21,6 +21,7 @@
     border-radius: 8px;
     font-weight: 500;
     font-size: 17px;
+    padding: 23px 20px;
 }
 
 .bg-primary{
