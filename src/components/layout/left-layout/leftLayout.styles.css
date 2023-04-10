@@ -1,6 +1,6 @@
 .layoutH3{
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 32px ;
+    line-height: 40px ;
 
 }
 
@@ -23,6 +23,19 @@
         text-align: center;
     }
 }
+/*
+@media only screen and (min-width: 768px) {
+    .layoutH3{
+        font-size: 25px;
+        line-height: 28px;
+    }
 
+    .l-layoutP{
+        font-size: 14px;
+        line-height: 130%;
+        padding-top: 5px;
+    }
+}
+*/
 
 

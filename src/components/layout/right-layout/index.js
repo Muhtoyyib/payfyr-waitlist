@@ -3,7 +3,7 @@ import  BellIcon from './bell.png';
 
 const RightLayout = () => {
   return (
-    <div className='col-12 col-lg-5 col-md-5 offset-lg-1 mt-lg-5 mt-5'>
+    <div className='col-12 col-lg-5 col-md-6 offset-lg-1 mt-lg-5 mt-5'>
 
         <div className='card overflow-hidden p-2'>
           <div className='jumbotron w-100'>
@@ -12,8 +12,8 @@ const RightLayout = () => {
                     <h1 className='rightH1'>Get Notified</h1>
                   </div>
 
-                  <div className='col-4 col-lg-4 d-lg-flex justify-content-lg-end '>
-                    <img src={BellIcon} alt="Bell_Icon" className='img-fluid w-50' />
+                  <div className='col-4 col-lg-4 '>
+                    <img src={BellIcon} alt="Bell_Icon" className='img-fluid float-right w-50' />
                   </div>
               </div>
           </div>
@@ -26,7 +26,7 @@ const RightLayout = () => {
                 </div>
 
                 <div className='d-flex align-items-center'>
-                  <button type="button" class="text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
+                  <button type="button" class=" text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
                 </div>
             </form>
           </div>

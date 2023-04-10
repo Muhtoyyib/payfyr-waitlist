@@ -35,12 +35,6 @@
         font-size: 22px;
     }
 
-    img{
-        width: 40% !important;
-        position: absolute;
-        right: 10px;
-        top: -4px;
-    }
 
     .submit{
         width: 100%;
