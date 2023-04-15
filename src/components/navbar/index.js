@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <div>
 
+       
         <nav className='navbar navbar-expand-md navbar-dark'>
             <h2 className='navbar-brand d-flex logo' href="mailto:akandeolalekantoheeb94@gmail.com">Payfyr</h2>
         

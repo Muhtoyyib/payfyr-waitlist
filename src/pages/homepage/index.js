@@ -4,6 +4,7 @@ import RightLayout from "../../components/layout/right-layout";
 import Modal from "../../components/modal";
 
 const Homepage = () => {
+
   return (
     <div className='container h-100 mt-lg-3'>
       <header>
@@ -18,6 +19,8 @@ const Homepage = () => {
       </main>
 
       <Modal />
+
+      
     </div>
   )
 }

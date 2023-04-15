@@ -1,7 +1,28 @@
 import './rightLayout.styles.css';
 import  BellIcon from './bell.png';
+import { useState } from 'react';
+import { emailRegex } from '../../../helpers/regex';
 
 const RightLayout = () => {
+  const [input, setInput] = useState('')
+  const [emailResponse, setEmailResponse] = useState('')
+
+  const handleValidation = (e) => {
+    e.preventDefault()
+    if(input.length >= 1){
+
+      if(!emailRegex.test(input)){
+        setEmailResponse('Sorry, the email you enter is incorrect')
+      } else if (emailRegex.test(input)) {
+        //API FOR SEND GRID GOES HERE
+        // if api call is successful, display modal
+        setEmailResponse('')
+      }
+    } else {
+      setEmailResponse('Please enter your email address')
+    }
+  }
+
   return (
     <div className='col-12 col-lg-5 col-md-6 offset-lg-1 mt-lg-5 mt-5'>
 
@@ -19,14 +40,14 @@ const RightLayout = () => {
           </div>
 
           <div className='px-2 mt-lg-4'>
-            <form>
+            <form onSubmit={(e) => handleValidation(e)}>
                 <div className='form-group mt-lg-1'>
-                    <input className='mail-input w-100 border-0' type="email" placeholder="Email address" />
-                    <small className='form-text text-muted'>{}</small>
+                    <input value={input} onChange={(e) => setInput(e.target.value)} className='mail-input w-100 border-0'  placeholder="Email address" />
+                    <small className='form-text text-muted'>{emailResponse}</small>
                 </div>
 
                 <div className='d-flex align-items-center'>
-                  <button type="button" class=" text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target="#successModal">Notify me</button>
+                  <button type="submit" class=" text-light text-center mx-auto mt-3 mb-2 submit border-0" data-toggle="modal" data-target={'#'}>Notify me</button>
                 </div>
             </form>
           </div>
