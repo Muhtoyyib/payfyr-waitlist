@@ -1,10 +1,20 @@
 import './modal.styles.css';
+// import { useEffect } from 'react';
 
-const Modal = () => {
+
+
+const Modal = ( {modalState} ) => {
+  // useEffect(() => {
+  //   const successModal = document.getElementById('successModal');
+  //   if (successModal) {
+  //     successModal.classList.add('show');
+  //     successModal.style.display = 'none';
+  //   }
+  // }, []);
 
   return (
     <div className='row d-flex align-items-center'>
-        <div className='modal fade' id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalTitle" aria-hidden="true">
+      {modalState && <div className='modal fade' id="successModal" tabIndex="-1" role="dialog" aria-labelledby="successModalTitle" aria-hidden="true">
         <div className='modal-dialog modal-dialog-centered' role="document">
             <div className='modal-content sucessContent'>
             <div className='modal-body mt-3'>
@@ -19,7 +29,7 @@ const Modal = () => {
             </div>
             </div>
         </div>
-        </div>
+        </div>}
     </div>
   )
 }
