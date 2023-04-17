@@ -17,6 +17,7 @@ const Homepage = () => {
       
       if(!emailRegex.test(input)){
         console.log('incorrect email')
+        setModalState(false);
         setEmailResponse('Sorry, the email you enter is incorrect')
 
       } else {
